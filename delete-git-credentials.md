@@ -1,8 +1,8 @@
 # Delete stored ```git``` credentials
 
-Old
-
 ## Check where are the credentials stored
+
+In ```Git Bash``` or your OS ```cli```
 
 ```bash
 git config credential.helper
@@ -10,7 +10,7 @@ git config credential.helper
 
 ## If stored in
 
-Windows Git Bash (previous command returns ```manager```)
+Windows (previous command returns ```manager```)
 
 ```powershell
 printf "protocol=https\nhost=git.repo.domain" | git credential-manager-core erase
