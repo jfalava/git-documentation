@@ -56,7 +56,7 @@
 
 ## Annex: test the signing
 
-[Bash script](https://git.jfalava.eu/jfalava/gitea-documentation/src/branch/main/gpg-sign-test.sh) for testing.  
+[Bash script](https://git.jfalava.eu/jfalava/git-documentation/src/branch/main/gpg-sign-test.sh) for testing.  
 
 This script fetches the default GPG key using the `gpg` command and configures Git to use it for signing commits with the `git config` command. The `--global` option specifies that the configuration should apply globally to all repositories on the system. The command `git config --global commit.gpgsign true` enables GPG signing for all commits made in the future.
 
