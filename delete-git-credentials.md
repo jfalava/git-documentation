@@ -10,16 +10,16 @@ git config credential.helper
 
 ## If stored in
 
-Windows (previous command returns ```manager```)
+* Windows (previous command returns ```manager```)
 
-```powershell
-printf "protocol=https\nhost=git.repo.domain" | git credential-manager-core erase
-```
+    ```powershell
+    printf "protocol=https\nhost=git.repo.domain" | git credential-manager-core erase
+    ```
 
-macOS (previous command returns ```osxkeychain```)
+* macOS (previous command returns ```osxkeychain```)
 
-```bash
-printf "protocol=https\nhost=git.repo.domain" | git credential-osxkeychain erase
-```
+    ```bash
+    printf "protocol=https\nhost=git.repo.domain" | git credential-osxkeychain erase
+    ```
 
 Changing ```git.repo.domain``` with your ```git``` repository
