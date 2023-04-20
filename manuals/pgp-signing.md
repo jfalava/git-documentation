@@ -3,7 +3,7 @@
 ## Requirements
 
 * [GNU GPG in Windows](https://www.gpg4win.org/get-gpg4win.html) (included in the [winget](https://git.jfalava.eu/jfalava/winget-script/src/branch/main/winget-script.ps1) script)
-* ```brew install gnupg``` and [GPG Suite](https://gpgtools.org/) and in macOS
+* `brew install gnupg` and [GPG Suite](https://gpgtools.org/) and in macOS
 
 ## Generate and/or add a PGP key
 
@@ -76,15 +76,15 @@ Open the Terminal:
     gpg --list-keys
    ```
 
-2. To export the public key, type the following command, replacing ```<key-id>``` with the ID of your key pair:
+2. To export the public key, type the following command, replacing `<key-id>` with the ID of your key pair:
 
     ```zsh
     gpg --export -a <key-id> > public_key.asc
     ```  
 
-    This command will export your public key to a file named ```public_key.asc``` in your current directory.
+    This command will export your public key to a file named `public_key.asc` in your current directory.
 
-3. To export the private key, type the following command, replacing ```<key-id>``` with the ID of your key pair:
+3. To export the private key, type the following command, replacing `<key-id>` with the ID of your key pair:
 
    ```zsh
     gpg --export-secret-key -a <key-id> private_key.asc

@@ -1,7 +1,5 @@
 # SSH Signing
 
-If possible, sign with [GPG](https://git.jfalava.eu/jfalava/gitea-documentation/src/branch/main/pgp-signing.md) instead.
-
 ## Required: run the command to disable (if enabled) GPG signing for Git commits
 
 ```bash
@@ -11,7 +9,7 @@ git config --global commit.gpgsign false
 1. Generate an SSH key pair to generate a new SSH key:
 
     ```bash
-    ssh-keygen -t rsa -b 4096 -C "your-email@example.com" 
+    ssh-keygen -t rsa -b 4096 -C <your-email@example.com>
     ```  
 
 2. Add your public key to your Git account:
@@ -36,19 +34,19 @@ git config --global commit.gpgsign false
     1. Run the command to set your email, same email used when the SSH key was generated:
 
         ```bash
-        git config -global user.email "your-email@example.com"
+        git config -global user.email <your-email@example.com>
         ```
 
     1. Run the command to set your name for Git:
 
         ```bash
-        git config --global user.name "Your Name"
+        git config --global user.name <Your Name>
         ```
 
     1. Run the command to specify thelocation of your private SSH key:
 
         ```bash
-        git config --global core.sshCommand "/path/to/private/key"
+        git config --global core.sshCommand </path/to/private/key>
         ```
 
     1. Run the command to specify the location of your private SSH key for signing commits:
