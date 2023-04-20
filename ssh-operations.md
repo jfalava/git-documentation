@@ -1,4 +1,4 @@
-# SSH Operations
+# SSH Operations on `git`
 
 SSH keys are used in Git to securely authenticate and connect to remote repositories, such as GitHub or Bitbucket.  
 SSH keys provide a way for Git to verify that you are who you say you are, and that you have permission to access the repository.
@@ -17,7 +17,7 @@ SSH keys provide a way for Git to verify that you are who you say you are, and t
     ssh -T git@repo.domain
     ```
 
-* Usage. Change `<command>` with any operation (like `clone`):
+* Usage. Change `<command>` with supported operations (like `clone`):
 
     ```bash
     git <command> git@repo.domain:username/repo.git

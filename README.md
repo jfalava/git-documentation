@@ -1,6 +1,6 @@
 # Git Documentation
 
-Personal notes for ```git``` operations.
+Personal notes for `git` operations.
 
 ## Git Signing
 
@@ -10,7 +10,11 @@ Personal notes for ```git``` operations.
 
 ## Git Credentials
 
-### [Delete ```git``` credentials](https://git.jfalava.eu/jfalava/git-documentation/src/branch/main/delete-git-credentials.md)
+### [Delete `git` credentials](https://git.jfalava.eu/jfalava/git-documentation/src/branch/main/delete-git-credentials.md)
+
+## Operations
+
+### [SSH Operations](https://git.jfalava.eu/jfalava/git-documentation/src/branch/main/ssh-operations.md)
 
 ## Tools
 
