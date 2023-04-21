@@ -62,7 +62,7 @@ This script fetches the default GPG key using the `gpg` command and configures G
 
 The script then creates a new Git repository in the current directory using `mkdir` and `git init`. It adds a file named `myfile.txt` to the Git index using `echo` and `git add`, which tracks changes to be committed.  
 
-A new commit is created with a message using `git commit`. The `-S` option specifies that the commit should be signed, and the `-m` option specifies the commit message. 
+A new commit is created with a message using `git commit`. The `-S` option specifies that the commit should be signed, and the `-m` option specifies the commit message.
 
 Finally, the script verifies the signed commit using the `git log` command with the `--show-signature` option. This command displays the Git commit history, including information about any GPG signatures attached to each commit.
 
