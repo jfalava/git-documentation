@@ -1,6 +1,6 @@
 # Git Credential Manager
 
-Valid for Azure DevOps, Team Foundation Server, GitHub, and BitBucket ```git``` operations.
+Valid for Azure DevOps, Team Foundation Server, GitHub, and BitBucket `git` operations.
 
 ## GCM
 

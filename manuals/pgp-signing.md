@@ -27,13 +27,13 @@
     git config --global gpg.program "C:/Program Files (x86)/GnuPG/bin/gpg.exe"
     ```
 
-1. In ```Git Bash```, your OS terminal or ```VSCode``` terminal, enter the following command, replacing ```example@example.com``` with the email address associated with the key you want to use:
+1. In `Git Bash`, your OS terminal or `VSCode` terminal, enter the following command, replacing `example@example.com` with the email address associated with the key you want to use:
 
     ```bash
     git config --global user.signingkey example@example.com
     ```
 
-    > This will tell ```git``` to search and use a private key with that email.
+    > This will tell `git` to search and use a private key with that email.
 
 1. You can also use the 8-bit fingerprint instead of the email:
 

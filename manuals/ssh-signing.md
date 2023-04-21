@@ -19,37 +19,37 @@ git config --global commit.gpgsign false
         cat /path/to/public/key.asc
         ```
 
-    2. Go to your Git account settings and click on ```SSH and GPG keys```.  
-    3. Click on "New SSH key" and paste your public key into the ```Key``` field.
-    4. Give your key a title and click ```Add SSH key```.  
+    2. Go to your Git account settings and click on `SSH and GPG keys`.  
+    3. Click on "New SSH key" and paste your public key into the `Key` field.
+    4. Give your key a title and click `Add SSH key`.  
 
 3. Configure Git to use your SSH key:  
-    > ```chmod 600``` is needed for the tool to accept the key.
+    > Permissions `chmod 600`-level like are needed for the tool to consider the key secure and be able to use it.
     1. Run the command to add your private key to the SSH agent:
 
         ```bash
         ssh-add /path/to/private/key
         ```
 
-    1. Run the command to set your email, same email used when the SSH key was generated:
+    2. Run the command to set your email, same email used when the SSH key was generated:
 
         ```bash
         git config -global user.email <your-email@example.com>
         ```
 
-    1. Run the command to set your name for Git:
+    3. Run the command to set your name for Git:
 
         ```bash
         git config --global user.name <Your Name>
         ```
 
-    1. Run the command to specify thelocation of your private SSH key:
+    4. Run the command to specify thelocation of your private SSH key:
 
         ```bash
         git config --global core.sshCommand </path/to/private/key>
         ```
 
-    1. Run the command to specify the location of your private SSH key for signing commits:
+    5. Run the command to specify the location of your private SSH key for signing commits:
 
         ```bash
         git config --global signing.key /path/to/private/key 
