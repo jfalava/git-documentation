@@ -4,7 +4,7 @@ Personal notes for `git` operations.
 
 ## Git Signing
 
-### [PGP](https://git.jfalava.eu/jfalava/git-documentation/src/branch/main/manuals/pgp-signing.md)  
+### [PGP](manuals/pgp-signing.md)  
 
 ### [SSH](https://git.jfalava.eu/jfalava/git-documentation/src/branch/main/manuals/ssh-signing.md)
 
