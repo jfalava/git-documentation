@@ -6,16 +6,16 @@ Personal notes for `git` operations.
 
 ### [PGP](manuals/pgp-signing.md)  
 
-### [SSH](https://git.jfalava.eu/jfalava/git-documentation/src/branch/main/manuals/ssh-signing.md)
+### [SSH](manuals/ssh-signing.md)
 
 ## Git Credentials
 
-### [Delete `git` credentials](https://git.jfalava.eu/jfalava/git-documentation/src/branch/main/manuals/delete-git-credentials.md)
+### [Delete `git` credentials](manuals/delete-git-credentials.md)
 
 ## Operations
 
-### [SSH Operations](https://git.jfalava.eu/jfalava/git-documentation/src/branch/main/manuals/ssh-operations.md)
+### [SSH Operations](manuals/ssh-operations.md)
 
 ## Tools
 
-### [Git Credential Manager](https://git.jfalava.eu/jfalava/git-documentation/src/branch/main/manuals/GCM.md)
+### [Git Credential Manager](manuals/GCM.md)
